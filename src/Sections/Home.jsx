@@ -1,8 +1,31 @@
-
+import Navbar from "../Components/Homepage-section-components/Navbar";
 export default function Home() {
   return (
-    <div  className="h-screen w-full bg-red-400 border border-black-1">
-                sdfksjldf
+    <div
+      style={{ backgroundImage: "url(/homepage-section/bg.png" }}
+      className="h-[100vh] w-[100vw] px-[20%] pt-8"
+    >
+      <Navbar />
+
+      <div className="content w-3/6 mt-12">
+        <h1 className="font-extrabold text-7xl">
+          A fully integrated digital{" "}
+          <span className="text-homepageservices">Services</span> agency
+        </h1>
+        <p className="text-[#555555] text-lg mt-10">
+          Lorem ipsum dolor sit amet, ea mundi malorum cum, ocurreret
+          reprehendunt ius ex. Ut vis mazim erroribus forensibus
+        </p>
+
+        <div className="flex mt-8 gap-4">
+        <button className="text-white bg-homepageprimary hover:bg-transparent hover:text-homepageprimary  border hover:border-homepageprimary font-light px-8 py-6 rounded-lg">
+            Our Services
+          </button>
+          <button className="text-white bg-homepageprimary hover:bg-transparent hover:text-homepageprimary  border hover:border-homepageprimary font-light px-8 py-6 rounded-lg">
+            Getting Started
+          </button>
+        </div>
+      </div>
     </div>
-  )
+  );
 }

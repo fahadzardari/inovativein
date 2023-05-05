@@ -5,12 +5,17 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    colors: {
-      homePageButtonBlack: '#292930',
-      homePageServicesPurple: '#5956E8',
-      // ...
+    
+    extend: {
+      colors: {
+        homepageprimary: '#292930',
+        homepageservices: '#5956E8',
+        // ...
+      },
+      fontFamily: {
+        'nunito': ['nunito', 'sans']
+      }
     },
-    extend: {},
   },
   plugins: [],
 }
