@@ -5,8 +5,8 @@ export default function Home() {
       style={{ backgroundImage: "url(/homepage-section/bg.png" }}
       className="h-[100vh] w-[100vw] px-[20%] pt-8"
     >
+      <img src="/homepage-section/marketing-banner.png" className="invisible lg:visible absolute w-30 h-30 right-0 lg-right-10 top-40 " />
       <Navbar />
-
       <div className="content w-3/6 mt-12">
         <h1 className="font-extrabold text-7xl">
           A fully integrated digital{" "}
