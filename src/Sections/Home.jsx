@@ -2,10 +2,10 @@ import Navbar from "../Components/Homepage-section-components/Navbar";
 export default function Home() {
   return (
     <div
-      style={{ backgroundImage: "url(/homepage-section/bgexp.png" }}
-      className="h-[100vh] w-[100vw] px-[10rem] pt-8 "
+      style={{ backgroundImage: "url(/homepage-section/bg.png" , backgroundRepeat:"no-repeat" }}
+      className="h-screen w-full px-[10rem] pt-8 "
     >
-      {/* <img src="/homepage-section/marketing-banner.png" className="invisible lg:visible absolute w-30 h-30 right-0 lg-right-10 top-40 " /> */}
+      <img src="/homepage-section/marketing-banner.png" className="invisible lg:visible absolute w-30 h-30 right-0 lg-right-10 top-40 " />
       <Navbar />
       <div className="content w-3/6 mt-12">
         <h1 className="font-extrabold text-7xl">
