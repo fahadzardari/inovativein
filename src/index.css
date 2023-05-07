@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-gray1{
+    background-color: #292930;
+}
+.bg-gray2{
+    background-color: #3C3C45;
+}
+.bg-gray3{
+    background-color: #5B5B61;
+}
