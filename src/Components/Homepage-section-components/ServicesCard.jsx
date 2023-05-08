@@ -1,6 +1,6 @@
 export default function ServicesCard({ imgUrl, heading, intro, link }) {
   return (
-    <div className="container text-white text-center flex flex-col gap-y-2 items-center py-6 rounded-xl border border-[#424245] px-8  justify-center" style={{background:"linear-gradient(180deg, #36363E 0%, #292930 100%)"}}>
+    <div className="container  text-white text-center flex flex-col gap-y-2 items-center py-6 rounded-xl border border-[#424245] px-8  justify-center" style={{background:"linear-gradient(180deg, #36363E 0%, #292930 100%)"}}>
       <img src="/services-section/icon.png" alt="" />
       <h1 className="text-md font-semibold">{heading}</h1>
       <p className="text-sm font-thin ">
