@@ -6,7 +6,7 @@ export default function Home() {
       className="min-h-screen w-full  "
     >
     
-      <div className="container relative  px-[10rem] pt-8">
+      <div className="container relative mx-auto  px-[8rem] pt-8">
         <img src="/homepage-section/marketing-banner.png" className="invisible lg:visible absolute w-[55rem] h-[50rem] -right-20 lg-right-10 top-40 " />
         <Navbar />
         <div className="content w-3/6 mt-12">
@@ -14,7 +14,7 @@ export default function Home() {
             A fully integrated digital{" "}
             <span className="text-homepageservices">Services</span> agency
           </h1>
-          <p className="text-[#555555] text-lg mt-10">
+          <p className="text-[#555555] sm:text-sm md:text-md lg:text-lg mt-10">
             Lorem ipsum dolor sit amet, ea mundi malorum cum, ocurreret
             reprehendunt ius ex. Ut vis mazim erroribus forensibus
           </p>
