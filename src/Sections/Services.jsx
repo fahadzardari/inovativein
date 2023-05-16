@@ -6,9 +6,9 @@ export default function Services() {
     <div className="min-h-screen w-full m-0 p-0 bg-homepageprimary">
       <div className="container mx-auto px-[3rem] lg:px-[6rem] py-8">
         <div className="flex justify-between items-center">
-          <div className="inline-flex flex-col">
-            <img src="/services-section/icon.png" className="w-12 lg:w-24 lg:h-24" alt="" />
-            <h1 className="text-[2rem] text-white font-bold invisible lg:visible ">
+          <div className="inline-flex  flex-col">
+            <img src="/services-section/icon.png" className="w-12 md:w-20 lg:w-24 " alt="" />
+            <h1 className="text-[2rem] text-white font-bold hidden  lg:block ">
               High-impact services to take your <br /> business to the next level
             </h1>
           </div>
