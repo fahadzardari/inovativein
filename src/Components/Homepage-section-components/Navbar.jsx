@@ -18,18 +18,18 @@ export default function Navbar() {
 
   return (
     <Header className="bg-transparent border-0">
-      <Container className="flex justify-between items-center w-full py-4">
-        <div className="flex-col justify-center items-center text-center">
-          <img src="/homepage-section/logo.png" className="" alt="logo" />
-          <h1 className="text-xs md:text-2xl font-bold text-[#2C2D36]">Inovativein</h1>
+      <Container size={"100%"} className="flex justify-between items-center w-full md:px-40 md:py-4">
+        <div className="flex flex-col justify-center items-center text-center">
+          <img src="/homepage-section/logo.png" className="h-12 md:h-auto" alt="logo" />
+          <h1 className="text-[0.7rem] md:text-2xl font-bold text-[#2C2D36]">Inovativein</h1>
         </div>
         <Group gap={5} className="hidden md:flex md:text-lg">
-          <a href="">Home</a>
-          <a href="">About</a>
-          <a href="">Services</a>
-          <a href="">Login</a>
+          <a href="" className="hover:text-neutral-800">Home</a>
+          <a href="" className="hover:text-neutral-800">About</a>
+          <a href="" className="hover:text-neutral-800">Services</a>
+          <a href="" className="hover:text-neutral-800">Login</a>
           <a href=""
-            className="bg-homepageprimary text-white px-8 py-4 rounded-lg"
+            className="bg-homepageprimary text-white px-8 py-3 rounded-lg"
           >
             Get Started
           </a>
@@ -47,8 +47,8 @@ export default function Navbar() {
           timingFunction="ease"
         >
           {(styles) => (
-            <Paper className={classes.dropdown} withBorder style={styles}>
-              <Group position="apart" className={classes.dropdownInner}>
+            <Paper className={classes.dropdown + "mx-8"} style={styles}>
+              <Group position="apart" className={classes.dropdownInner + ""}>
                 <a href="">Home</a>
                 <a href="">About</a>
                 <a href="">Services</a>
